@@ -70,3 +70,11 @@ taxa_de_juros = float(input(" digite a taxa de juros da poupança"))
 total_juros = calcular_poupanca(deposito_inicial, taxa_de_juros)
 print(f"\nTotal ganho com juros em 24 meses: R$ {total_juros}")
 
+
+distancia = float (input("digite a distancia"))
+velocidade = int (input("digite a velocidade"))
+tempo = velocidade/distancia
+print(tempo)
+
+
+
